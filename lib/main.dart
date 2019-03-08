@@ -3,6 +3,8 @@ import 'container.dart';
 import 'row.dart';
 import 'column.dart';
 import 'image.dart';
+import 'text.dart';
+import 'icon.dart';
 
 void main() => runApp(MyApp());
 
@@ -17,6 +19,7 @@ class MyApp extends StatelessWidget {
 //        home: new MyContainer());
 //        home: new MyRow());
 //        home: new MyColumn());
-        home: new MyImage());
+//        home: new MyImage());
+        home: new MyIcon());
   }
 }
