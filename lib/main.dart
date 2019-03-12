@@ -23,6 +23,9 @@ import 'text_field.dart';
 import 'checkbox.dart';
 import 'ratio.dart';
 import 'switch.dart';
+import 'slider.dart';
+import 'date_picker.dart';
+import 'simple_dialog.dart';
 
 void main() => runApp(MyApp());
 
@@ -56,6 +59,9 @@ class MyApp extends StatelessWidget {
 //        home: new MyTextField());
 //        home: new MyCheckbox());
 //        home: new MyRadio());
-        home: new MySwitch());
+//        home: new MySwitch());
+//        home: new MySlider());
+//        home: new MyDatePicker());
+        home: new MySimpleDialog());
   }
 }
