@@ -38,6 +38,9 @@ import 'linear_progress_indicator.dart';
 import 'list_tile.dart';
 import 'stepper.dart';
 import 'divider.dart';
+import 'cupertino_activity_indicator.dart';
+import 'cupertino_alert_dialog.dart';
+import 'cupertino_button.dart';
 
 void main() => runApp(MyApp());
 
@@ -87,6 +90,9 @@ class MyApp extends StatelessWidget {
 //        home: new MyLinearProgressIndicator());
 //        home: new MyListTile());
 //        home: new MyStepper());
-        home: new MyDivider());
+//        home: new MyDivider());
+//        home: new MyCupertinoActivityIndicator());
+//        home: new MyCupertinoAlertDialog());
+        home: new MyCupertinoButton());
   }
 }
