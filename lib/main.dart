@@ -41,6 +41,13 @@ import 'divider.dart';
 import 'cupertino_activity_indicator.dart';
 import 'cupertino_alert_dialog.dart';
 import 'cupertino_button.dart';
+import 'cupertino_dialog_action.dart';
+import 'cupertino_slider.dart';
+import 'cupertino_switch.dart';
+import 'cupertino_page_transition.dart';
+import 'cupertino_fullscreen_dialog_transition.dart';
+import 'cupertino_navigation_bar.dart';
+import 'cupertino_tab_bar.dart';
 
 void main() => runApp(MyApp());
 
@@ -93,6 +100,13 @@ class MyApp extends StatelessWidget {
 //        home: new MyDivider());
 //        home: new MyCupertinoActivityIndicator());
 //        home: new MyCupertinoAlertDialog());
-        home: new MyCupertinoButton());
+//        home: new MyCupertinoButton());
+//        home: new MyCupertinoDialogAction());
+//        home: new MyCupertinoSlider());
+//        home: new MyCupertinoSwitch());
+//        home: new MyCupertinoPageTransition());
+//        home: new MyCupertinoFullscreenDialogTransition());// TODO
+//        home: new MyCupertinoNavigationBar());
+        home: new MyCupertinoTabBar());
   }
 }
