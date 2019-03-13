@@ -26,6 +26,18 @@ import 'switch.dart';
 import 'slider.dart';
 import 'date_picker.dart';
 import 'simple_dialog.dart';
+import 'alert_dialog.dart';
+import 'bottom_sheet.dart';
+import 'expansion_panel.dart';
+import 'snack_bar.dart';
+import 'chip.dart';
+import 'tooltip.dart';
+import 'data_table.dart';
+import 'card.dart';
+import 'linear_progress_indicator.dart';
+import 'list_tile.dart';
+import 'stepper.dart';
+import 'divider.dart';
 
 void main() => runApp(MyApp());
 
@@ -41,7 +53,9 @@ class MyApp extends StatelessWidget {
 //        home: new MyRow());
 //        home: new MyColumn());
 //        home: new MyImage());
+//        home: new MyText());
 //        home: new MyIcon());
+//        home: new MyRaisedButton());
 //        home: new MyScaffold());
 //        home: new MyAppBar());
 //        home: new MyFlutterLogo());
@@ -50,7 +64,6 @@ class MyApp extends StatelessWidget {
 //        home: new MyTabBar());
 //        home: new MyTabBarView());
 //        home: new MyDrawer());
-//        home: new MyDrawer())
 //        home: new MyFloatingActionButton());
 //        home: new MyFlatButton());
 //        home: new MyIconButton());
@@ -62,6 +75,18 @@ class MyApp extends StatelessWidget {
 //        home: new MySwitch());
 //        home: new MySlider());
 //        home: new MyDatePicker());
-        home: new MySimpleDialog());
+//        home: new MySimpleDialog());
+//        home: new MyAlertDialog());
+//        home: new MyBottomSheet());
+//        home: new MyExpansionPanel());
+//        home: new MySnackBar());
+//        home: new MyChip());
+//        home: new MyTooltip());
+//        home: new MyDataTable());
+//        home: new MyCard());
+//        home: new MyLinearProgressIndicator());
+//        home: new MyListTile());
+//        home: new MyStepper());
+        home: new MyDivider());
   }
 }
