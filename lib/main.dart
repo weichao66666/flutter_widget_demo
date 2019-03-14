@@ -48,6 +48,9 @@ import 'cupertino_page_transition.dart';
 import 'cupertino_fullscreen_dialog_transition.dart';
 import 'cupertino_navigation_bar.dart';
 import 'cupertino_tab_bar.dart';
+import 'cupertino_page_scaffold.dart';
+import 'cupertino_tab_scaffold.dart';
+import 'cupertino_tab_view.dart';
 
 void main() => runApp(MyApp());
 
@@ -107,6 +110,9 @@ class MyApp extends StatelessWidget {
 //        home: new MyCupertinoPageTransition());
 //        home: new MyCupertinoFullscreenDialogTransition());// TODO
 //        home: new MyCupertinoNavigationBar());
-        home: new MyCupertinoTabBar());
+//        home: new MyCupertinoTabBar());
+//        home: new MyCupertinoPageScaffold());
+//        home: new MyCupertinoTabScaffold());
+        home: new MyCupertinoTabView());
   }
 }
