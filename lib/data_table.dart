@@ -10,7 +10,7 @@ class _DataTableDemoPagePageState extends State<MyDataTable> {
   int _defalutRowPageCount = PaginatedDataTable.defaultRowsPerPage;
   int _sortColumnIndex;
   bool _sortAscending = true;
-  MyTable table = MyTable();
+  MyDataTableSource table = MyDataTableSource();
 
   //排序关联_sortColumnIndex,_sortAscending
   void _sort(Comparable getField(Shop s), int index, bool b) {
@@ -85,7 +85,7 @@ class _DataTableDemoPagePageState extends State<MyDataTable> {
   }
 }
 
-class MyTable extends DataTableSource {
+class MyDataTableSource extends DataTableSource {
   List _shops = [
     Shop('小米8', 100, '手机', 1699.0),
     Shop('华为P20', 50, '手机', 4999.0),
